@@ -1,0 +1,55 @@
+* {
+  font-family: "Raleway", serif;
+}
+
+#root {
+  height: 100%;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #1c1c1c;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.wrong {
+  background-color: #3c0e70;
+  opacity: 0.4;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  overflow: hidden;
+  width: 150px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #8434de,
+    rgba(184, 84, 232, 1)
+  );
+}
+
+button:hover {
+  background: linear-gradient(
+    120deg,
+    rgba(184, 84, 232, 1),
+    rgba(132, 52, 222, 1)
+  );
+}

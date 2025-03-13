@@ -9,4 +9,6 @@ Este template fornece uma configuração mínima para rodar um projeto React com
 - **Vite**: Ferramenta de build moderna para desenvolvimento rápido e otimizado.
 
 
-##Preview - **[Quiz]([quizreactwill.netlify.app](https://quizreactwill.netlify.app/))**
+## Demo
+
+Você pode ver a aplicação ao vivo [aqui](https://quizreactwill.netlify.app/).
